@@ -2,7 +2,8 @@
 *.exe
 *.obj
 *.plist
-
+*.ilk
+*.pdb
 # Directories for lsp
 /.cache
 /build
