@@ -1,0 +1,11 @@
+# Files being made`
+*.exe
+*.obj
+*.plist
+
+# Directories for lsp
+/.cache
+/build
+# CmakeLists.txt
+CmakeLists.txt
+*.cmake
