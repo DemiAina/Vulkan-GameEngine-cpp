@@ -3,7 +3,7 @@
 #include <iostream>
 
 #define VK_CHECK(result)                                            \
-        if (result == VK_SUCCESS) {                                 \
+        if (result != VK_SUCCESS) {                                 \
             std::cout << "Vulkan error: " << result << std::endl;   \
             __debugbreak();                                         \
             return false;                                           \
