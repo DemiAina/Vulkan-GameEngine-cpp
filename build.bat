@@ -12,3 +12,6 @@ cl /EHsc /Z7 /Fe"main" %includes% %defines% src/platform/win32_platform.cpp %lin
 
 
 main.exe
+
+pause
+
